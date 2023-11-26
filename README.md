@@ -40,16 +40,20 @@ This addon will include the following features, some are already implemented, bu
   Aiming to not make calls for each context change is necessary to click on "Force Update List" when you change Node Editor Context.
   The Favorite list will be exclusive for each Context, GeoNodes, Shading, LuxCore, Octane, etc.
 
-  Features:
+    Features:
     Favorite List Display: Set the maximum number of displayed Favorites in the list, this will not exclude the nodes, only trim the list.
-    Force Update List: CLick for Redraw the list.
+    Update List: CLick for Redraw the list.
     Add node to Favorite: Add the selected node to the list.
     Press the X button to Delete the node form Favories.
     Press Arrow Up / Down to Move your Favorites.
     Press E to call the Pie Menu, It will show all the favories in the list
 
+### Most Used Nodes
+![Captura de tela 2023-11-26 153450](https://github.com/r-kez/NodeMaster_Toolkit/assets/150207615/3dac1846-c2d9-43a9-9038-70963bcace13)
 
-
+Features:
+  Display Amount: Set the Maximum buttons to be displayed in the list.
+  Update List: Force redraw of the list
       
 ### Extra Nodes:
   ![Captura de tela 2023-11-26 145158](https://github.com/r-kez/NodeMaster_Toolkit/assets/150207615/a38ea70a-9b3a-43f9-91dc-f05839f90eb2)
