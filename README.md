@@ -29,6 +29,27 @@ This addon will include the following features, some are already implemented, bu
     1 = Fully Implemented   |   2 = Missing Features   |   3 = Yet to be Implemented
   
 *as is too many things, i may miss some nodes or forget to excluse nodes from specific context, please, report if you see something like it
+
+### Favorites
+
+  ![Captura de tela 2023-11-26 151216](https://github.com/r-kez/NodeMaster_Toolkit/assets/150207615/31d85ed4-f752-4788-b5be-2a4a862cb446)
+  ![Captura de tela 2023-11-26 151422](https://github.com/r-kez/NodeMaster_Toolkit/assets/150207615/20a417c9-f9c4-447b-bf8c-551a0bb28376)
+
+  The Favorite List is saved in the Native Blender folder "\AppData\Roaming\Blender Foundation\Blender\4.0\config"
+  Then you can always have your Favorites in new projects.
+  Aiming to not make calls for each context change is necessary to click on "Force Update List" when you change Node Editor Context.
+  The Favorite list will be exclusive for each Context, GeoNodes, Shading, LuxCore, Octane, etc.
+
+  Features:
+    Favorite List Display: Set the maximum number of displayed Favorites in the list, this will not exclude the nodes, only trim the list.
+    Force Update List: CLick for Redraw the list.
+    Add node to Favorite: Add the selected node to the list.
+    Press the X button to Delete the node form Favories.
+    Press Arrow Up / Down to Move your Favorites.
+    Press E to call the Pie Menu, It will show all the favories in the list
+
+
+
       
 ### Extra Nodes:
   ![Captura de tela 2023-11-26 145158](https://github.com/r-kez/NodeMaster_Toolkit/assets/150207615/a38ea70a-9b3a-43f9-91dc-f05839f90eb2)
