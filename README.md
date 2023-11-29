@@ -18,7 +18,7 @@ This addon will include the following features, some are already implemented, bu
   Octane Kernel ³   <br>
   Extra Nodes ² <br>
   ### Geometry Nodes: <br>
-  Native Geometry Nodes ¹ <br> <br>
+  Native Geometry Nodes ¹ <br>
   Exclusive Nodes for GeoNodes Toos ¹ <br>
 
 ### General Node Editor Features:
