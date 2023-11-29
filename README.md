@@ -9,6 +9,7 @@ This addon will include the following features, some are already implemented, bu
 
   ### Shading Editor:
     Native Blender Nodes ¹
+    Native Blender Compositor ³
     LuxCore Shading Nodes ²
     LuxCore Volume Nodes ³
     Octane Shading Nodes ³
