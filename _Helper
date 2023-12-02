@@ -2,7 +2,7 @@
 
 
 bl_info = {
-    "name": "Custom Panel",
+    "name": "NodeMaster Toolkit",
     "description": "Single line explaining what this script exactly does.",
     "author": "R_Kez",
     "version": (1, 0),
@@ -302,7 +302,7 @@ class RENDER_PT_resolutionHelper(bpy.types.Panel):
     bl_label = "Resolution Helper"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_category = "Custom Panel"
+    bl_category = "NodeMaster Toolkit"
     
     def draw(self, context):
         
@@ -353,7 +353,7 @@ class IMAGE_PT_ImageListsPanel(bpy.types.Panel):
     bl_label = "Image Lists"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_category = "Custom Panel"
+    bl_category = "NodeMaster Toolkit"
 
     def draw(self, context):
         layout = self.layout
@@ -391,7 +391,7 @@ class NODE_PT_Shader_Utilities_Panel(bpy.types.Panel):
     bl_label = "Shader Utilities"
     bl_space_type = "NODE_EDITOR"
     bl_region_type = "UI"
-    bl_category = "Custom Panel"
+    bl_category = "NodeMaster Toolkit"
     
    # Draw Dropdown Menu
     def draw(self, context):
@@ -472,6 +472,38 @@ def unregister():
     
 if __name__ == "__main__":
     register()
+
+
+
+    USAR EM TOOL GEOIMETRY NODES
+
+        if context.space_data.geometry_nodes_type == 'TOOL':
+            layout.operator("seu_operador", text="Seu Botão")
+        else:
+            layout.label(text="Botão Indisponível neste Contexto")
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
